@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>小白的调查问卷</h1>
+    <form action="" method="post">
+        <p>
+            <label for="user1">用户姓名</label>
+            <input type="text" name="user" id="user1" required placeholder="请输入您的姓名">
+        </p>
+        <p>
+            <label for="email">用户邮箱</label>
+            <input type="email" name="email" id="email" required placeholder="请输入您的邮箱">
+        </p>
+        <p>
+            <label for="feedback">反馈内容</label>
+            <textarea name="feedback" id="feedback" cols="40" rows="5" required placeholder="请输入您的建议"></textarea>
+        </p>
+        
+        <p>
+            <label for="score">评分</label>
+            <input type="radio" name="score" required>1
+            <input type="radio" name="score">2
+            <input type="radio" name="score">3
+            <input type="radio" name="score">4
+            <input type="radio" name="score" >5
+        </p>
+        <p>
+            <input type="submit" value="提交">
+            <input type="reset" value="清空表格">
+        </p>
+    </form>
+</body>
+<style>
+    h1{
+        margin: 0 auto;
+        width: 225px;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+        background-color: rgb(239, 251, 245);
+    }
+    
+    form{
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+        background-color: rgb(244, 249, 228);
+    }
+    textarea {
+        vertical-align: top;
+        height: 5em;
+    }
+
+</style>
+</html>
